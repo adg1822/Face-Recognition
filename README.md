@@ -22,4 +22,4 @@ The train folder contain 15 images of each person, val folder contain 5 images o
 This is combination of two models: SVC classifier and Distance method
 Train SVC classifier on training data using embedding. Make a database of embedding of known persons using single clear face image and use Distance method by calculating distance minnimum distance between new person's embedding and our database.
 
-Define a function to combine both method.
+Define a [function](Functions/getclass.py) to combine both method.
