@@ -24,3 +24,31 @@ This is combination of two models: SVC classifier and Distance method
 Train SVC classifier on training data using embedding. Make a database of embedding of known persons using single clear face image and use Distance method by calculating distance minnimum distance between new person's embedding and our database.
 
 Define a [function](Functions/getclass.py) to combine both method.
+
+## Features
+Find faces in pictures
+
+
+import face_recognition
+image = face_recognition.load_image_file("your_file.jpg")
+face_locations = face_recognition.face_locations(image)
+
+Find and manipulate facial features in pictures
+
+Get the locations and outlines of each person's eyes, nose, mouth and chin.
+
+import face_recognition
+image = face_recognition.load_image_file("your_file.jpg")
+face_landmarks_list = face_recognition.face_landmarks(image)
+
+Finding facial features is super useful for lots of important stuff. But you can also use it for really stupid stuff like applying digital make-up (think 'Meitu'):
+
+Identify faces in pictures
+
+![Alt text](Images/jobiden.png)
+
+Recognize who appears in each photo.
+
+
+## Performance
+
