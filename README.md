@@ -5,4 +5,13 @@ This is keras implementetion of the face recognizer described in the paper ["Fac
 A couple of pre-trained model are used [FaceNet](https://arxiv.org/abs/1503.03832) and [MTCNN](https://arxiv.org/abs/1604.02878). [MTCNN](https://github.com/ipazc/mtcnn) is used to extract faces from images, these extracted faces are used to get embedding using pre-trained FaceNet model.
 
 ## Training Data
-There is no  need to train FaceNet or MTCNN models but to train SVC classifier this dataset is used. The dataset containes train and validation images of 7 persons, in train folder 
+There is no  need to train FaceNet or MTCNN models but to train SVC classifier this dataset is used. Dataset
+![Alt text](Images/314827.jpg)
+
+The train folder contain 15 images of each person, val folder contain 5 images of each person and unknown folder contain 8 images of unknown person. 
+
+## Model
+This is combination of two models: SVC classifier and Distance method
+Train SVC classifier on training data using embedding. Make a database of embedding of known persons using single clear face image and use Distance method by calculating distance minnimum distance between new person's embedding and our database.
+
+Define a function to combine both method.
