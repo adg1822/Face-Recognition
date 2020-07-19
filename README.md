@@ -19,7 +19,7 @@ There is no  need to train FaceNet or MTCNN models but to train SVC classifier t
 The train folder contain 15 images of each person, val folder contain 5 images of each person and unknown folder contain 8 images of unknown person. 
 
 ## Model
-This is combination of two models: SVC classifier and Distance method
+This is combination of two models: SVC classifier and [Distance method](Notebook/Distance methode.ipynb)
 
 Train SVC classifier on training data using embedding. Make a database of embedding of known persons using single clear face image and use Distance method by calculating distance minnimum distance between new person's embedding and our database.
 
