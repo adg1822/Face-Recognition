@@ -46,7 +46,15 @@ Unknown person/ unauthorised person
 
 <img width="500" alt="java 8 and prio java 8  array review example" src="Images/unknown person.jpg">
 
+## Result
 
+#### Known person
+
+![Alt text](Images/result_of_known_person.png)
+
+#### Unknown person
+
+![Alt text](Images/result_of_unknown_person.png)
 
 ## Performance
 f1_score is 1 when we check performance on authorised person and f1_score is 0.976462298 when model is tested on unauthorised persons also. 
