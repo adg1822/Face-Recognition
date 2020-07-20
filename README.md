@@ -49,4 +49,4 @@ Unknown person/ unauthorised person
 
 
 ## Performance
-f1_score is 1 when we check performance on authorised person and f1_score is 0.9764622973925299 when model is tested on unauthorised persons also. 
+f1_score is 1 when we check performance on authorised person and f1_score is 0.976462298 when model is tested on unauthorised persons also. 
