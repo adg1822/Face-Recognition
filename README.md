@@ -30,22 +30,25 @@ Train SVC classifier on training data using embedding. Make a database of embedd
 Define a [function](Functions/getclass.py) to combine both method.
 
 ## Features
-Find faces in pictures
+MTCNN find faces in pictures.([function](Functions/get_extracted_face.py)) 
 
-![Alt text](Images/elon_musk extracted face.png)
+<img width="500" alt="java 8 and prio java 8  array review example" src="Images/elon_musk%20extracted%20face.png">
 
+
+### Recognize persone in image
 
 Identify faces in pictures
 
-![Alt text](Images/welcome elon_musk.JPG)
+<img width="500" alt="java 8 and prio java 8  array review example" src="Images/welcome elon_musk.JPG">
 
-Recognize who appears in each photo.
 
-Unkown person
 
-![Alt text](Images/unknown person.jpg)
+Unkown person/ unathorised person
+
+<img width="500" alt="java 8 and prio java 8  array review example" src="Images/unknown person.jpg">
+
 
 
 ## Performance
 
-f1_score is 0.99999
+f1_score is 0.9764622973925299.
