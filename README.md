@@ -41,7 +41,11 @@ Identify faces in pictures
 
 Recognize who appears in each photo.
 
+Unkown person
+
+![Alt text](Images/unknown.jpeg)
+
 
 ## Performance
 
-
+f1_score is 0.99999
