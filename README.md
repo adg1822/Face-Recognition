@@ -32,7 +32,7 @@ Define a [function](Functions/getclass.py) to combine both method.
 ## Features
 Find faces in pictures
 
-![Alt text](Images/elon_musk extracted face.JPG)
+![Alt text](Images/elon_musk extracted face.png)
 
 
 Identify faces in pictures
