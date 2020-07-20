@@ -32,18 +32,18 @@ Define a [function](Functions/getclass.py) to combine both method.
 ## Features
 Find faces in pictures
 
-![Alt text](Images/elon_musk.jpg)
+![Alt text](Images/elon_musk extracted face.JPG)
 
 
 Identify faces in pictures
 
-![Alt text](Images/jobiden.png)
+![Alt text](Images/welcome elon_musk.JPG)
 
 Recognize who appears in each photo.
 
 Unkown person
 
-![Alt text](Images/unknown.jpeg)
+![Alt text](Images/unknown person.jpg)
 
 
 ## Performance
