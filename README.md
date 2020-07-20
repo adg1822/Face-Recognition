@@ -35,18 +35,18 @@ MTCNN find faces in pictures.([function](Functions/get_extracted_face.py))
 <img width="500" alt="java 8 and prio java 8  array review example" src="Images/elon_musk%20extracted%20face.png">
 
 
-### Recognize persone in image
+### Recognize person in image
 
 Identify faces in pictures
 
 <img width="500" alt="java 8 and prio java 8  array review example" src="Images/welcome elon_musk.JPG">
 
 
-Unkown person/ unathorised person
+Unknown person/ unauthorised person
 
 <img width="500" alt="java 8 and prio java 8  array review example" src="Images/unknown person.jpg">
 
 
 
 ## Performance
-f1_score is 1 when we check performance on authorized person and f1_score is 0.9764622973925299 when model is tested on unauthorized persons also. 
+f1_score is 1 when we check performance on authorised person and f1_score is 0.9764622973925299 when model is tested on unauthorised persons also. 
