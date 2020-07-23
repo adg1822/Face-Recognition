@@ -9,13 +9,17 @@ $ pip install mtcnn
 ```
 ### Requirement
 OpenCV >=4.1
+
 Keras >=2.0.0
+
 numpy >=1.9.1
+
 scipy >=0.14
+
 python >=3.4
 
 ## Pre-trained Models
-[FaceNet](https://arxiv.org/abs/1503.03832) is used as pre-trained Model. [MTCNN](https://arxiv.org/abs/1604.02878) [MTCNN](https://github.com/ipazc/mtcnn) is used to extract faces from images, these extracted faces are used to get embedding using pre-trained FaceNet model.
+[FaceNet](https://arxiv.org/abs/1503.03832) is used as pre-trained Model. [MTCNN](https://github.com/ipazc/mtcnn) is used to extract faces from images, these extracted faces are used to get embedding using pre-trained FaceNet model.
 
 ## Training Data
 There is no  need to train FaceNet but to train SVC classifier this dataset is used. 
